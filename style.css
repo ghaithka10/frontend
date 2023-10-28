@@ -1,186 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&family=Big+Shoulders+Display:wght@700&family=League+Spartan:wght@700&family=Lexend+Deca&family=Lobster&family=Permanent+Marker&family=Poppins:wght@600&family=Sedgwick+Ave+Display&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&family=Big+Shoulders+Display:wght@700&family=League+Spartan:wght@500&family=Lexend+Deca&family=Lobster&family=Permanent+Marker&family=Poppins:wght@600&family=Sedgwick+Ave+Display&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&family=Big+Shoulders+Display:wght@700&family=League+Spartan&family=Lexend+Deca&family=Lobster&family=Permanent+Marker&family=Poppins:wght@600&family=Sedgwick+Ave+Display&family=Ubuntu&display=swap');
 *{
-    padding: 0px;
     margin: 0px;
+    padding: 0px;
 }
-body{
-    background-color:rgb(241 241 224);
-    height: 100vh;
+.back{
+    position: absolute;
 }
-.container{
-    width: 40%;
-    position: relative;
-    left: 34%;
-    top: 120px;
-    display: flex;
-    border-radius: 10px;
-}
-img{
-    border-top-left-radius:10px;
-}
-.explan{
-    background-color: white;
-    width: 100%;
-    height: 392px;
-    border-top-right-radius:10px;
-    border-bottom-right-radius:10px;
-}
-.explan p{
-    letter-spacing: 4px;
-    font-size: 14px;
-    margin: 13px 26px;
-    color: #00000061;
+h1{
+    margin-top: 90px;
+    margin-left: 90px;
+    color: hsl(300, 43%, 22%);
+    width: 20%;
     font-weight: bold;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
 }
-.explan .first{
-    color: black;
-    font-weight: bold;
-    font-size: 28px;
-    margin: 3px 26px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    letter-spacing: 0px;
-}
-.explan .second{
-    color: #0000007e;
-    font-weight: bold;
-    margin: 15px 26px;
-    font-size: 14px;
+p{
+    margin-top: 20px;
+    margin-left: 90px;
+    color: hsl(303, 10%, 53%);
+    width: 25%;
+    font-weight: 500;
+    font-size: 13px;
     line-height: 20px;
-    font-family: sans-serif;
-    letter-spacing: 0px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
 }
-.explan h1{
-    color: #279242;
+.stars{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 90px;
+    align-content: flex-end;
+    margin-top: -160px;
+}
+
+.first{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    background-color: hsl(300, 24%, 96%);
+    padding: 10px 40px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.first svg{
+    margin-right: 10px;
+}
+.first h5{
+    margin-left: 20px;
+    color: hsl(300, 43%, 22%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+.second{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    background-color: hsl(300, 24%, 96%);
+    padding: 10px 40px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+}
+.second svg{
+    margin-right: 10px;
+}
+.second h5{
+    margin-left: 20px;
+    color: hsl(300, 43%, 22%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+.third{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    background-color: hsl(300, 24%, 96%);
+    padding: 10px 40px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-left: 90px;
+}
+.third svg{
+    margin-right: 10px;
+}
+.third h5{
+    margin-left: 20px;
+    color: hsl(300, 43%, 22%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+.people{
+    margin-left: 90px;
+    margin-top: 90px;
+    display: flex;
+}
+.one{
+    background-color: hsl(300, 43%, 22%);
+    width: 25%;
+    border-radius: 8px;
+    height: 200px;
+}
+.one img{
+    border-radius: 50%;
+    width: 12%;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.one .name{
+    width: 100%;
     font-weight: bold;
-    margin-top: 24px;
-    margin-left: 26px;
-    margin-right: 26px;
-    font-size: 35px;
-}
-.explan .money{
-    position: relative;
-    top: -43px;
-    left: 130px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    letter-spacing: 0px;
+    color: hsl(0, 0%, 100%);
+    margin-top: -43px;
+    margin-left: 100px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 15px;
 }
-.explan button{
-    margin: -15px 26px;
-    padding: 12px 75px;
-    border-radius: 5px;
-    border: none;
-    background-color: #279242;
-    color: white;
-    font-family:sans-serif;
+.one .work{
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 100px;
+    color: hsl(333, 80%, 67%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+}
+.one .explan{
+    color: hsl(0, 0%, 100%);
+    width: 78%;
+    margin-left: 40px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+}
+.two{
+    background-color: hsl(300, 43%, 22%);
+    width: 25%;
+    border-radius: 8px;
+    height: 200px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+.two img{
+    border-radius: 50%;
+    width: 12%;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.two .name{
     font-weight: bold;
+    color: hsl(0, 0%, 100%);
+    margin-top: -43px;
+    margin-left: 100px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    width: 100%;
 }
-svg{
-    fill: white;
-    position: absolute;
-    left: 340px;
-    top: 337px;
-    width: 18px;
+.two .work{
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 100px;
+    color: hsl(333, 80%, 67%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
 }
-@media(max-width:1100px){
-    *{
-        padding: 0px;
-        margin: 0px;
+.two .explan{
+    color: hsl(0, 0%, 100%);
+    width: 75%;
+    margin-left: 40px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+}
+.three{
+    background-color: hsl(300, 43%, 22%);
+    width: 25%;
+    border-radius: 8px;
+    height: 200px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.three img{
+    border-radius: 50%;
+    width: 12%;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.three .name{
+    font-weight: bold;
+    color: hsl(0, 0%, 100%);
+    margin-top: -43px;
+    margin-left: 100px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    width: 100%;
+}
+.three .work{
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 100px;
+    color: hsl(333, 80%, 67%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+}
+.three .explan{
+    color: hsl(0, 0%, 100%);
+    width: 75%;
+    margin-left: 40px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+}
+@media (max-width:375px){
+    body{
+        background: url(images/bg-pattern-top-mobile.svg)
+        url(images/bg-pattern-bottom-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
     }
-    .container{
-        width: 52%;
-        position: relative;
-        left: 10%;
-        top: 20px;
-        display: inline-block;
-        height: 450px;
+    h1{
+        text-align: center;
+        font-size: 30px;
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 20px;
     }
-    img{
-        border-top-left-radius:10px;
-        border-top-right-radius:10px;
-        width: 160%;
-        height:330px;
-        object-fit: cover;
+    p{
+        width: 70%;
+        text-align: center;
+        margin-left: 15%;
     }
-    .cont-img{
-        width: 100%;
-        height: 100%;
+    .stars{
+        margin-top: 50px;
+        display: block;
+        width: 375px;
     }
-    .explan{
-        background-color: white;
-        width: 160%;
-        height: 370px;
-        border-bottom-left-radius:10px;
-        border-bottom-right-radius:10px;
-        border-top-right-radius:0px;
-        margin-top: -140px;   
+    .first{
+        display: block;
+        width: 90%;
+        padding: 10px 0px;
+        margin-left: 20px;
     }
-    .space{
-        padding:38px 0px;
+    .first h5{
+        text-align: center;
     }
-    .explan p{
-        letter-spacing: 7px;
-        font-size: 14px;
-        margin: 13px 26px;
-        color: #00000061;
-        font-weight: bold;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        padding-top:20px;
+    .star{
+        margin-left: 130px;
+        margin-bottom: 5px;
     }
-    .explan .first{
-        color: black;
-        font-weight: bold;
-        font-size: 32px;
-        margin: 3px 26px;
-        padding-top:1px ;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        letter-spacing: 1px;
+    .first svg{
+        margin-left: -10px;
     }
-    .explan .second{
-        color: #0000007e;
-        font-weight: bold;
-        margin: -10px 26px;
-        font-size: 15px;
-        line-height: 20px;
-        font-family: sans-serif;
-        letter-spacing: 0px;
-        padding-left: 4px;
-        width: 295px;
+
+    .second{
+        display: block;
+        width: 90%;
+        padding: 10px 0px;
+        margin-left: 20px;
     }
-    .explan h1{
-        color: #279242;
-        font-weight: bold;
-        margin-top: 25px;
-        margin-left: 26px;
-        margin-right: 26px;
-        font-size: 35px;
+    .second h5{
+        text-align: center;
     }
-    .explan .money{
-        position: relative;
-        top: -46px;
-        left: 130px;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        letter-spacing: 0px;
-        font-size: 15px;
-        padding: 0px;
+    .star{
+        margin-left: 130px;
+        margin-bottom: 5px;
     }
-    .explan button{
-        margin: -350px 26px;
-        padding: 15px 134px;
-        border-radius: 5px;
-        border: none;
-        background-color: #279242;
-        color: white;
-        font-family:sans-serif;
-        font-weight: bold;
-        font-size: 14px;
+    .second svg{
+        margin-left: -10px;
     }
-    svg{
-        fill: white;
-        position: absolute;
-        left: 135px;
-        top: 632px;
-        width: 18px;
+
+    .third{
+        display: block;
+        width: 90%;
+        padding: 10px 0px;
+        margin-left: 20px;
     }
-    
+    .third h5{
+        text-align: center;
+    }
+    .star{
+        margin-left: 130px;
+        margin-bottom: 5px;
+    }
+    .third svg{
+        margin-left: -10px;
+    }
+    .people{
+        display: block;
+        margin-top: 50px;
+    }
+    .one{
+        width: 110%;
+        margin-left: -55px;
+        height: 210px;
+    }
+    .one .name{
+        margin-left: 0px;
+    }
+    .one .work{
+        margin-left: 0px;
+    }
+    .one .explan{
+        text-align: start;
+        width: 75%;
+    }
+    .two{
+        width: 110%;
+        margin-left: -55px;
+        height: 210px;
+        margin-bottom: -10px;
+    }
+    .two .name{
+        margin-left: 0px;
+    }
+    .two .work{
+        margin-left: 0px;
+    }
+    .two .explan{
+        text-align: start;
+        width: 75%;
+    }
+    .three{
+        width: 110%;
+        margin-left: -55px;
+        height: 210px;
+    }
+    .three .name{
+        margin-left: 0px;
+    }
+    .three .work{
+        margin-left: 0px;
+    }
+    .three .explan{
+        text-align: start;
+        width: 75%;
+    }
 }
